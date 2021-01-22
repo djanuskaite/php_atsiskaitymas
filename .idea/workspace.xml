@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6477980-557a-4ba5-be2a-6118e76ca8f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/view/header.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/marseme.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/flights.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/functions.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/css/style.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/view/index.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/index.view.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +45,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1611037436576</updated>
-      <workItem from="1611037437619" duration="13227000" />
+      <workItem from="1611037437619" duration="13859000" />
+      <workItem from="1611209833450" duration="605000" />
+      <workItem from="1611301800135" duration="6235000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1611041829618</created>
@@ -56,7 +56,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611041829618</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="final">
+      <created>1611050968829</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1611050968829</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -64,17 +71,22 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="final" />
+    <option name="LAST_COMMIT_MESSAGE" value="final" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="515" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1611050092762">
+    <state x="515" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1611304275785">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="515" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1611050092762" />
-    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1611041828875">
+    <state x="515" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1611304275785" />
+    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1611050967797">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1611041828875" />
+    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1611050967797" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1611210437051">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1611210437051" />
     <state x="627" y="310" key="Github.ShareDialog" timestamp="1611041786081">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -83,10 +95,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="615" y="117" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1611041794331" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1611041844099">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1611051020739">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1611041844099" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1611051020739" />
     <state x="431" y="145" key="search.everywhere.popup" timestamp="1611039382698">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

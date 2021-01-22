@@ -1,4 +1,6 @@
 <?php
-require 'view/index.view.php';
-require_once 'view/header.php';
-require_once 'view/style.css';
+require 'inc/functions.php';
+require_once 'view/index.view.php';
+
+
+

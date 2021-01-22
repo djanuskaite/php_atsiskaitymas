@@ -19,73 +19,27 @@ $flightNo = [9898, 9797, 9696, 9595, 9494, 9393, 9292, 9191];
 $from = ['KUN', 'VLN', 'PLQ'];
 $to = ['VKO', 'BGO', 'IEV'];
 $luggage= [10, 20, 30, 40];
-$validation_errors=[];
-if (isset($_POST['submit'])) {
-
-    if (!preg_match('/\w{1,100}$/',
-        trim(htmlspecialchars($_POST['name']))) ){
-        $validation_errors[] = "Name can not exceed 100 symbols and be shorter than 1";
-    } else {
-        $_POST['name'] = trim(htmlspecialchars( $_POST['name']));
-    }
-    if (!preg_match('/\w{1,100}/',
-        trim(htmlspecialchars($_POST['lastName'])))) {
-        $validation_errors[] = "Last name can not exceed 100 symbols and be shorter than 1";
-    } else {
-        $_POST['lastName']= trim(htmlspecialchars($_POST['lastName']));
-    }
-    if (!preg_match('/^([3-6]\d{10})$/',
-        trim(htmlspecialchars($_POST['perscode'])))){
-        $validation_errors[] = "Invalid personal number format";
-    } else {
-        $_POST['perscode'] = trim(htmlspecialchars($_POST['perscode']));
-    }
-    if (!preg_match('/^(\+3706)?\(?([0-9]{2})\)?([ .-]?)([0-9]{5})/',
-        trim(htmlspecialchars($_POST['telno'])))) {
-        $validation_errors[] = "Invalid phone number format";
-    } else {
-        $_POST['telno']= trim(htmlspecialchars($_POST['telno']));
-    }
-    if (!preg_match('/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/',
-        trim(htmlspecialchars($_POST['email'])))) {
-        $validation_errors[] = "Invalid email format";
-    } else {
-        $_POST['email']= trim(htmlspecialchars($_POST['email']));
-    }
-    if (!preg_match('/^(?:0|[1-9]\d*)(?:\,\d{2})?$/',
-        trim(htmlspecialchars($_POST['price'])))) {
-        $validation_errors[] = "Invalid price format";
-    } else {
-        $_POST['price']= trim(htmlspecialchars($_POST['price']));
-    }
-    if (!preg_match('/[\w\s{1,500}]/i',
-        trim(htmlspecialchars($_POST['note'])))) {
-        $validation_errors[] = "invalid note format";
-    } else {
-        $_POST['note'] = trim(htmlspecialchars($_POST['note']));
-    }
-}
-
 ?>
-
-<?php if($validation_errors) :?>
-<div class="errors">
-        <?php foreach($validation_errors as $error) :?>
-        <div class="alert alert-danger mt-4" role="alert">
-            <?=$error; ?>
-        </div>
-    <?php endforeach; ?>
-    </div>
-<?php endif; ?>
 
 <!--forma-->
 
 <div class="container">
 
-    <div class="container ">
     <div class="row">
         <div class="col-sm text-center ">
             <h1 class="p-5 text-info">Air ticket form</h1>
+            <section>
+                <?php if (isset($_POST['submit'])): ?>
+                    <?php validate($_POST); ?>
+                <? endif;
+                if (isset($_POST['submit']) & empty($validation)): ?>
+                </section>
+            <?php else: ?>
+            <?php foreach ($validation as $errors): ?>
+            <div class="alert alert-danger m-2" role="alert">
+                <?= $errors; ?>
+            </div>
+            <?php endforeach; ?>
             <form method="post" >
                 <div class="form-group">
                     <select name="flights" class="form-control">
@@ -153,9 +107,9 @@ if (isset($_POST['submit'])) {
                     <textarea class="form-control" name="note" id="note" rows="3"></textarea>
                 </div>
                 <button type="submit" class="btn btn-info mb-5" name="submit">Submit</button>
+                <?php endif; ?>
 
-
-                <?php if (isset($_POST["submit"]) && !$validation_errors):?>
+                <?php if (isset($_POST["submit"]) && !$validation):?>
 
                     <?php $note = $_POST['note'];
                     $forward = $_POST['forward'];
@@ -173,9 +127,10 @@ if (isset($_POST['submit'])) {
                     <button type="button" name="submit" class="btn btn-success mb-5" data-toggle="modal" data-target="#ticket">
                         Print Ticket
                     </button>
-                <?php endif;?>
+
             </form>
 </div>
+
 <!--        review -->
         <div class="modal fade" id = "ticket" tabindex="-1" role="dialog">
             <div class="modal-dialog" role="document">
@@ -225,9 +180,9 @@ if (isset($_POST['submit'])) {
             </div>
         </div>
     </div>
-    </div>
 </div>
 </div>
+<?php endif; ?>
 
 
 <footer>

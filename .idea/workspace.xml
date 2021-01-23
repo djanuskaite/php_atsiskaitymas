@@ -48,7 +48,7 @@
       <workItem from="1611209833450" duration="605000" />
       <workItem from="1611301800135" duration="12294000" />
       <workItem from="1611346551439" duration="11325000" />
-      <workItem from="1611420701691" duration="2138000" />
+      <workItem from="1611420701691" duration="5859000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1611041829618</created>
@@ -71,7 +71,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611308171401</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="neveikianti validacija2">
+      <created>1611422856867</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1611422856867</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -81,17 +88,18 @@
     <MESSAGE value="." />
     <MESSAGE value="final" />
     <MESSAGE value="neveikianti validacija" />
-    <option name="LAST_COMMIT_MESSAGE" value="neveikianti validacija" />
+    <MESSAGE value="neveikianti validacija2" />
+    <option name="LAST_COMMIT_MESSAGE" value="neveikianti validacija2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="778" y="112" key="#Inspections" timestamp="1611347566473">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="778" y="112" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1611347566473" />
-    <state x="0" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611355285958">
+    <state x="0" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611426634976">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="0" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1611355285958" />
+    <state x="0" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1611426634976" />
     <state x="515" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1611347956311">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -100,10 +108,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="598" y="202" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1611350710145" />
-    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1611308170665">
+    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1611422856062">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1611308170665" />
+    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1611422856062" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1611351771315">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -120,10 +128,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1611346730394" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1611308184742">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1611422870506">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1611308184742" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1611422870506" />
     <state x="431" y="145" key="search.everywhere.popup" timestamp="1611039382698">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

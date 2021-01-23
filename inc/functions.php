@@ -5,7 +5,7 @@ function validate()
 {
     global $validation;  //akcentas
 
-        if (empty($_POST['name']) || !preg_match('/\w{1,100}$/', $_POST['name'])) {
+        if (!preg_match('/\w{1,100}$/', $_POST['name'])) {
             $validation[] = "Name can not exceed 100 symbols and be shorter than 1";
         }
         if (empty($_POST['lastname']) || !preg_match('/\w{1,100}//', $_POST['lastname'])) {

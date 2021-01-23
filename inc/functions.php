@@ -1,7 +1,7 @@
 <?php
 
 $validation=[];
-function validate($data)
+function validate()
 {
     global $validation;  //akcentas
 
@@ -24,7 +24,7 @@ function validate($data)
             $validation[] = "Invalid price format";
         }
         if (empty($_POST['note']) || !preg_match('/[\w\s{1,500}]/i', $_POST['note'])) {
-            $validation_errors[] = "invalid note format";
+            $validation[] = "invalid note format";
         }
 
     return $validation;

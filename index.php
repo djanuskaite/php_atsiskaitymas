@@ -1,6 +1,7 @@
 <?php
+require "inc/data.php";
 require 'inc/functions.php';
-require_once 'view/index.view.php';
+require 'view/index.view.php';
 
 
 

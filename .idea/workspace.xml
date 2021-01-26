@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a6477980-557a-4ba5-be2a-6118e76ca8f8" name="Default Changelist" comment="">
+    <list default="true" id="a6477980-557a-4ba5-be2a-6118e76ca8f8" name="Default Changelist" comment="neveikianti validacija2">
+      <change afterPath="$PROJECT_DIR$/inc/data.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/flights.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/flights.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inc/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/index.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/index.view.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +30,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../php_forma" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -48,7 +51,12 @@
       <workItem from="1611209833450" duration="605000" />
       <workItem from="1611301800135" duration="12294000" />
       <workItem from="1611346551439" duration="11325000" />
-      <workItem from="1611420701691" duration="5859000" />
+      <workItem from="1611420701691" duration="6094000" />
+      <workItem from="1611498470661" duration="6350000" />
+      <workItem from="1611519234295" duration="6795000" />
+      <workItem from="1611563414578" duration="38000" />
+      <workItem from="1611569847949" duration="636000" />
+      <workItem from="1611677892819" duration="10897000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1611041829618</created>
@@ -78,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611422856867</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="neveikianti validacija2">
+      <created>1611427093568</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1611427093568</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,26 +111,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="778" y="112" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1611347566473" />
-    <state x="0" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611426634976">
+    <state x="0" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611501460962">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="0" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1611426634976" />
-    <state x="515" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1611347956311">
+    <state x="0" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1611501460962" />
+    <state x="515" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1611683893396">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="515" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1611347956311" />
+    <state x="515" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1611683893396" />
     <state x="598" y="202" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1611350710145">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="598" y="202" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1611350710145" />
-    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1611422856062">
+    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1611519324025">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1611422856062" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1611351771315">
+    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1611519324025" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1611571168612">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1611351771315" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1611571168612" />
     <state x="627" y="310" key="Github.ShareDialog" timestamp="1611041786081">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -128,10 +143,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1611346730394" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1611422870506">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1611427100673">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1611422870506" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1611427100673" />
     <state x="431" y="145" key="search.everywhere.popup" timestamp="1611039382698">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
